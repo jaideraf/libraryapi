@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-fastapi = "==0.75.1"
+fastapi = "==0.75.2"
 pymarc = "==4.2.0"
 requests = "==2.27.1"
 uvicorn = {version = "==0.17.6", extras = ["standard"]}
@@ -13,8 +13,8 @@ zeep = "==4.1.0"
 
 [dev-packages]
 pre-commit = "==2.18.1"
-pytest = "==7.1.1"
-pipenv = "==2022.4.8"
+pytest = "==7.1.2"
+pipenv = "==2022.4.20"
 black = "*"
 flake8 = "*"
 reorder-python-imports = "*"
