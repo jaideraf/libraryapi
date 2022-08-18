@@ -15,14 +15,16 @@ An API to get [MARC (Machine-Readable Cataloging)](https://en.wikipedia.org/wiki
 ### Using [Docker](https://hub.docker.com/r/vitorsilverio/libraryapi)
 
 - `docker pull vitorsilverio/libraryapi:main`
-- `docker run -d --name libraryapi -p 80:80 vitorsilverio/libraryapi:main`
+- `docker run -d --name libraryapi -p 8000:80 vitorsilverio/libraryapi:main`
 
 ### Locally
 
 - Make sure you have Python 3.10+ installed. You may have to prefix `pip` and `uvicorn` commands with `python3.10 -m` if you have more than one Python interpreter.
-- Install [Pipenv](https://pipenv.pypa.io/)
+- Install [Pipenv](https://pipenv.pypa.io/) with pip: `pip install --user pipenv`
+- In Ubuntu 22.04: `export SETUPTOOLS_USE_DISTUTILS=stdlib`
 - `pipenv install --deploy`
-- `uvicorn app.main:app --port 80`
+- `pipenv shell`
+- `uvicorn app.main:app --port 80` append `--reload` if you are developing and change the port
 
 ## Endpoints and services
 

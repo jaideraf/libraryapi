@@ -4,17 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-fastapi = "==0.78.0"
+fastapi = "==0.79.0"
 pymarc = "==4.2.0"
-requests = "==2.27.1"
-uvicorn = {version = "==0.17.6", extras = ["standard"]}
+requests = "==2.28.1"
+uvicorn = {version = "==0.18.2", extras = ["standard"]}
 xmltodict = "==0.13.0"
 zeep = "==4.1.0"
 
 [dev-packages]
-pre-commit = "==2.19.0"
+pre-commit = "==2.20.0"
 pytest = "==7.1.2"
-pipenv = "==2022.5.2"
+pipenv = "==2022.8.17"
 black = "*"
 flake8 = "*"
 reorder-python-imports = "*"
