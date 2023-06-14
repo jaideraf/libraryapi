@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-fastapi = "==0.96.0"
+fastapi = "==0.97.0"
 pymarc = "==5.1.0"
 uvicorn = {version = "==0.22.0", extras = ["standard"]}
 xmltodict = "==0.13.0"
@@ -13,8 +13,8 @@ httpx = "==0.24.1"
 
 [dev-packages]
 pre-commit = "==3.3.2"
-pytest = "==7.3.1"
-pipenv = "==2023.6.2"
+pytest = "==7.3.2"
+pipenv = "==2023.6.12"
 ruff = "*"
 mypy = "*"
 
