@@ -24,17 +24,17 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-fastapi = "==0.109.0"
-pymarc = "==5.1.1"
-uvicorn = {version = "==0.27.0.post1", extras = ["standard"]}
+fastapi = "==0.109.2"
+pymarc = "==5.1.2"
+uvicorn = {version = "==0.27.1", extras = ["standard"]}
 xmltodict = "==0.13.0"
 zeep = {version = "==4.2.1", extras = ["async"]}
 httpx = "==0.26.0"
 
 [tool.poetry.group.dev.dependencies]
-pre-commit = "==3.6.0"
-pytest = "==8.0.0"
-pipenv = "==2023.11.17"
+pre-commit = "==3.6.2"
+pytest = "==8.0.1"
+pipenv = "==2023.12.1"
 ruff = "*"
 mypy = "*"
 
